@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv5 Face Detection</title>
+    <style>
+       body{
+            background-color: #f0f0f0;
+       }
+       footer {
+               text-align: center;
+               font-size: 14px;
+               color: #888;
+               margin-top: auto;
+               padding: 10px 0;
+               width: 100%;
+               position: fixed;
+               bottom: 0;
+               left: 0;
+               right: 0;
+               box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+          }
+    </style>
+</head>
+<body>
+    <h4>YOLOv5 Face Detection</h4>
+    <p>识别结果：<div id="result"></div></p>
+    <input type="file" id="imageUpload" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <footer>support by @xuetu</footer>
+</body>
+</html>
