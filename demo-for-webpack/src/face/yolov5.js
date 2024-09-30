@@ -6,7 +6,7 @@ export default class YOLOv5FaceDetector {
       this.modelPath = modelPath;
       this.numThreads = numThreads;
       this.session = null;
-      this.inputWidth = 480; // 需要根据模型设置
+      this.inputWidth = 640; // 需要根据模型设置
       this.inputHeight = 640; // 需要根据模型设置
       this.meanVals = [0, 0, 0]; // RGB
       this.normVals = [1/255, 1/255, 1/255];
