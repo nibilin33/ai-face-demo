@@ -90,9 +90,7 @@ module.exports = {
       patterns: [{ from: "public", to: "./" }],
     }),
     new CopyPlugin({
-      patterns: [{ from: "node_modules/@mainto/ai-face-sdk/dist/ort-wasm-simd.wasm", to: "./" },{
-        from: "node_modules/@mainto/ai-face-sdk/dist/model/", to: "./model"
-      }],
+      patterns: [{ from: "node_modules/onnxruntime-web/dist/*.wasm", to: "./" }],
     }),
   ],
 };
